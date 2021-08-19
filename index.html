@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Stats preview card component</title>
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+     .content{
+       background-color: #1c1938;
+     }
+     .special{
+       color: #8f59bb
+;
+     }
+  </style>
+</head>
+<body class="bg-black">
+
+    <div class="container mx-auto flex my-8 py-16 px-8">
+      <div class="content mx-auto  flex-1 rounded-lg pl-8">
+        <h1 class="mx-6 my-16 text-4xl font-extrabold text-white">Get <span class="special font-black">insights</span> that helps your buisness grow</h1>
+        <p class="my-16 mx-6 text-white text-lg">Discover the benefits of Data analytics and make better decisions regarding revenue, customer experience, and overall efficiency</p>
+
+        <div class="stats flex justify-around">
+          <p class="text-2xl font-extrabold text-white">10K +
+            <span class="block text-sm font-normal">COMPANIES</span>
+          </p>
+          <p class="text-2xl font-extrabold text-white">314
+            <span class="block text-sm font-normal">TEMPLATES</span>
+          </p>
+          <p class="text-2xl font-extrabold text-white">12M +
+            <span class="block text-sm font-normal">QUERIES</span>
+          </p>
+        </div>
+      </div>
+      <div class="mx-auto flex-1"><img src="./images/image-header-desktop.jpg" class="rounded-lg"></div>
+    </div>
+  
+  
+</body>
+</html>
